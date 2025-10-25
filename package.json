@@ -1,0 +1,29 @@
+{
+  "name": "is-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "module": "./dist/is-ts.js",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/is-ts.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vitest": "^4.0.3"
+  }
+}
