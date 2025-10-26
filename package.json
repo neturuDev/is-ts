@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "module": "./dist/is-ts.js",
+  "author": "Volodymyr Cherevchuk",
   "license": "MIT",
   "files": [
     "dist"
@@ -18,7 +19,8 @@
     "dev": "vite",
     "build": "vite build && tsc",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "check:license": "node scripts/check-license-header.mjs"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",

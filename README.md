@@ -95,3 +95,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 MIT License
+
+Originally created by [Volodymyr Cherevchuk](https://github.com/neturuDev)
