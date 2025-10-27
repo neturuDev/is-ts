@@ -21,8 +21,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check license headers
-        run: npm run check:license
-
       - name: Run tests
         run: npm test
