@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "lib/index.ts"),
-      name: "is-ts",
+      name: "is-toolkit",
       formats: ["es"],
     },
   },
