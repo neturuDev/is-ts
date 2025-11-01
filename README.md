@@ -1,19 +1,19 @@
-# is-ts
+# is-toolkit
 
 A TypeScript utility library for type checking and validation.
 
 ## Installation
 
 ```bash
-npm install @neturu/is-ts
+npm install is-toolkit
 ```
 
 ## Usage
 
 ```typescript
-import { isString } from "@neturu/is-ts";
-import { isNumber } from "@neturu/is-ts";
-import { isArray } from "@neturu/is-ts";
+import { isString } from "is-toolkit";
+import { isNumber } from "is-toolkit";
+import { isArray } from "is-toolkit";
 // ... import other functions as needed
 
 // Type checking examples
