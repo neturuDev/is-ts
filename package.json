@@ -1,8 +1,8 @@
 {
-  "name": "@neturu/is-ts",
-  "version": "0.0.1",
+  "name": "is-toolkit",
+  "version": "0.0.0",
   "type": "module",
-  "module": "./dist/is-ts.js",
+  "module": "./dist/is-toolkit.js",
   "author": "Volodymyr Cherevchuk",
   "license": "MIT",
   "files": [
@@ -11,7 +11,7 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/is-ts.js",
+      "import": "./dist/is-toolkit.js",
       "types": "./dist/index.d.ts"
     }
   },
